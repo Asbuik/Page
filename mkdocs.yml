@@ -1,0 +1,28 @@
+site_name: Valid Thought
+site_url: https://www.validthought.de
+repo_url: https://github.com/Asbuik/valid-thought
+
+
+theme:
+  name: material
+  custom_dir: material_customizations
+  palette:
+    primary: 'deep purple'
+    accent: 'deep orange'
+  language: 'en'
+  feature:
+    tabs: false
+  search: false
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+
+extra_css:
+  - docs\stylesheets
+
+nav: []
