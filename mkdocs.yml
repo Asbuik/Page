@@ -1,6 +1,6 @@
 site_name: Valid Thought
 site_url: https://www.validthought.de
-repo_url: https://github.com/Asbuik/valid-thought
+repo_url: https://asbuik.github.io/Page/
 
 
 theme:
@@ -23,6 +23,6 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra_css:
-  - docs\stylesheets
+  - material_customizations
 
 nav: []
