@@ -7,8 +7,8 @@ theme:
   name: material
   custom_dir: material_customizations
   palette:
-    primary: 'deep purple'
-    accent: 'deep orange'
+    primary: 'white'
+    accent: 'white'
   language: 'en'
   feature:
     tabs: false
