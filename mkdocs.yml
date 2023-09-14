@@ -7,8 +7,13 @@ theme:
   name: material
   custom_dir: material_customizations
   palette:
+<<<<<<< Updated upstream
     primary: 'white'
     accent: 'white'
+=======
+    primary: 'cyan'
+    accent: 'deep orange'
+>>>>>>> Stashed changes
   language: 'en'
   feature:
     tabs: false
@@ -22,7 +27,14 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences
 
+extra_javascript:
+  - material_customizations/main.js
+  - material_customizations/react-app.html
+  - material_customizations/matrixslider.js
+  - react-app/matrixslider.js
+
 extra_css:
-  - material_customizations
+  - material_customizations/extra.css
+  - material_customizations/matrixslider.css
 
 nav: []
