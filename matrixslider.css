@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+  }
+  
+  #transitionText {
+    font-family: monospace;
+    white-space: pre;
+    position: relative;
+    z-index: 2;
+  }
+  
+  #matrixCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #slider {
+    appearance: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background: transparent;
+    z-index: 3;
+  }
+  
+  #slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 100%;
+    width: 5px;
+    background: rgba(0,0,0,0.5);
+    cursor: ew-resize;
+  }
+  
+  #slider::-moz-range-thumb {
+    height: 100%;
+    width: 5px;
+    background: rgba(0,0,0,0.5);
+    cursor: ewI'm sorry for the cutoff. Here's the rest of the CSS:
+  
+  ```css
+  #slider::-moz-range-thumb {
+    height: 100%;
+    width: 5px;
+    background: rgba(0,0,0,0.5);
+    cursor: ew-resize;
+  }
+  
