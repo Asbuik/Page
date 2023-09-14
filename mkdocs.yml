@@ -9,3 +9,14 @@ theme:
   palette:
     primary: 'white'
     accent: 'white'
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+extra:
+  generator: false
+
+plugins: []
+
+copyright: Copyright &copy; 2023 Jonathan Huber
