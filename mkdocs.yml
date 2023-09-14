@@ -18,6 +18,7 @@ theme:
   feature:
     tabs: false
   search: false
+  logo: assets/logo.png
 
 
 markdown_extensions:
