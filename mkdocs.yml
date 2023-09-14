@@ -20,6 +20,9 @@ theme:
   search: false
   logo: assets/logo.png
 
+extra:
+  generator: false
+
 
 markdown_extensions:
   - attr_list
