@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Welcome to Valid Thought :earth_americas:
 
 We're all about making the digital world clear and open to everyone. :bulb:
